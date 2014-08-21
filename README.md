@@ -21,12 +21,12 @@ SYSTEM REQUIREMENTS:
 8. jar files from the "jar-libraries.zip"
 
 
-#STEP 1: CREATION OF DATABASE
+####STEP 1: CREATION OF DATABASE
 
 
 Get into the database folder and follow the steps mentioned in the "readme.dat" file inside the database folder. This will create the necessary database and table.
 
-#STEP 2: START THE Python-Selenium RPC server
+####STEP 2: START THE Python-Selenium RPC server
 
 First, make sure you have the following packages to run selenium in headless mode.
 
@@ -41,14 +41,14 @@ Or, run the following commands in terminal
 
 And now run the "python-selenium-rpc.py" file. It will start the server.
 
-STEP 3: START THE Stanford-NLP-RPC server
+####STEP 3: START THE Stanford-NLP-RPC server
 
 
 First of all, extract the "jar-libraries.zip" in your system. Then open the "corenlp_rpc.java" file (can be in Eclipse/Netbeans),
 and attach (refer) all the stanford corenlp jar files, as well as all the jar files from the extracted folder. Then run the "corenlp_rpc.java" file.
 
 
-FINAL STEP: RUN THE SENTIMENT ANALYZER
+####FINAL STEP: RUN THE SENTIMENT ANALYZER
 
 
 If you have completed all the above steps successfully, you can now get into this step. Run the "Call_java_rpc.java" file. Attach (Refer) all the
@@ -56,7 +56,7 @@ If you have completed all the above steps successfully, you can now get into thi
 
 
 -----------------------------------
-NLP SYSTEM BRIEFING
+####NLP SYSTEM BRIEFING
 -----------------------------------
 
 
