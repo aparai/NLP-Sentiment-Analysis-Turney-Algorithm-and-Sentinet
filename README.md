@@ -11,14 +11,14 @@ All the following steps are tested in Ubuntu 12.04. You are advised to run the .
 SYSTEM REQUIREMENTS:
 ...................
 
-1) Ubuntu 12.04 or above, Debian, ...
-2) Java 6 or above
-3) Python 2.7
-4) Stanford CoreNLP jar files
-5) pyvirtualdisplay, xvfb, selenium
-6) Very high speed internet
-7) Firefox
-8) jar files from the "jar-libraries.zip"
+1. Ubuntu 12.04 or above, Debian, ...
+2. Java 6 or above
+3. Python 2.7
+4. Stanford CoreNLP jar files
+5. pyvirtualdisplay, xvfb, selenium
+6. Very high speed internet
+7. Firefox
+8. jar files from the "jar-libraries.zip"
 
 
 STEP 1: CREATION OF DATABASE
