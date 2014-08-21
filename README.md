@@ -44,21 +44,23 @@ sudo pip install pyvirtualdisplay, selenium
 And now run the "python-selenium-rpc.py" file. It will start the server.
 
 STEP 3: START THE Stanford-NLP-RPC server
------------------------------------------
+
 
 First of all, extract the "jar-libraries.zip" in your system. Then open the "corenlp_rpc.java" file (can be in Eclipse/Netbeans),
 and attach (refer) all the stanford corenlp jar files, as well as all the jar files from the extracted folder. Then run the "corenlp_rpc.java" file.
 
 
 FINAL STEP: RUN THE SENTIMENT ANALYZER
---------------------------------------
+
 
 If you have completed all the above steps successfully, you can now get into this step. Run the "Call_java_rpc.java" file. Attach (Refer) all the
 .jar files from the extracted folder (not Stanford NLP jars) to the above Java file.
 
 
+-----------------------------------
+NLP SYSTEM BRIEFING
+-----------------------------------
 
----------------------NLP SYSTEM BRIEFING------------------------
 
 The Turney algorithm is based upon the following,
 
