@@ -85,7 +85,7 @@ Now the database sentiment is done via following. In the picked phrases picked v
 
 This program is under GPL license. For help -->  parai.a@gmail.com
 
-My website: https://www.invlab.in
+Website: https://www.invlab.in
 
 -------------------------------------------------------------------
 
