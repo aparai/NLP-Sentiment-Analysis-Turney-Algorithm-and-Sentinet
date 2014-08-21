@@ -29,7 +29,7 @@ def get_count(n):
         
         wd.quit()
         wd = webdriver.Firefox() # uses Firefox
-        wd.get("https://www.google.co.in/?gws_rd=ssl#q=" + g +"+wih+excellent")
+        wd.get("https://www.google.co.in/?gws_rd=ssl#q=" + g +"+near+excellent")
         time.sleep(2)        
         for elem in wd.find_elements_by_xpath('.//div[@id="resultStats"]'):
             try:
@@ -44,7 +44,7 @@ def get_count(n):
         
         wd.quit()
         wd = webdriver.Firefox() # uses Firefox     
-        wd.get("https://www.google.co.in/?gws_rd=ssl#q=" + g +"+with+poor")
+        wd.get("https://www.google.co.in/?gws_rd=ssl#q=" + g +"+near+poor")
         time.sleep(2)        
         for elem in wd.find_elements_by_xpath('.//div[@id="resultStats"]'):
             try:
