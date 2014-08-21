@@ -21,12 +21,12 @@ SYSTEM REQUIREMENTS:
 8. jar files from the "jar-libraries.zip"
 
 
-STEP 1: CREATION OF DATABASE
+#STEP 1: CREATION OF DATABASE
 
 
 Get into the database folder and follow the steps mentioned in the "readme.dat" file inside the database folder. This will create the necessary database and table.
 
-STEP 2: START THE Python-Selenium RPC server
+#STEP 2: START THE Python-Selenium RPC server
 
 First, make sure you have the following packages to run selenium in headless mode.
 
