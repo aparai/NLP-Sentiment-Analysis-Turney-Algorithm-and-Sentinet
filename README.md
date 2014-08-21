@@ -24,7 +24,7 @@ SYSTEM REQUIREMENTS:
 ######STEP 1: CREATION OF DATABASE
 
 
-Get into the database folder and follow the steps mentioned in the "readme.dat" file inside the database folder. This will create the necessary database and table, and the script will will the table ith data.
+Get into the database folder and follow the steps mentioned in the "readme.dat" file inside the database folder. This will create the necessary database and table, and the script will fill the table with data.
 
 ######STEP 2: START THE Python-Selenium RPC server
 
