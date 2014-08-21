@@ -9,7 +9,7 @@ All the following steps are tested in Ubuntu 12.04. You are advised to run the .
 
 
 SYSTEM REQUIREMENTS:
-...................
+
 
 1. Ubuntu 12.04 or above, Debian, ...
 2. Java 6 or above
@@ -22,19 +22,19 @@ SYSTEM REQUIREMENTS:
 
 
 STEP 1: CREATION OF DATABASE
-----------------------------
+
 
 Get into the database folder and follow the steps mentioned in the "readme.dat" file inside the database folder. This will
 create the necessary database and table.
 
 STEP 2: START THE Python-Selenium RPC server
---------------------------------------------
+
 
 First, make sure you have the following packages to run selenium in headless mode.
 
-a) Selenium
-b) Pyvirtualdisplay
-c) Xvfb
+1. Selenium
+2. Pyvirtualdisplay
+3. Xvfb
 
 Or, run the following commands in terminal
 
@@ -68,17 +68,17 @@ The above log is in base 2. You are very strongly advised to experiment with the
 
 We pick all phrases which match to the following:
 
-1) JJ, NN/NNS
-2) RB/RBR/RBS, JJ, NOT NN/NNS
-3) JJ, JJ, NOT NN/NNS
-4) RB/RBR/RBS, VB/VBD/VBN/VBG, NOT NN/NNS
+1. JJ, NN/NNS
+2. RB/RBR/RBS, JJ, NOT NN/NNS
+3. JJ, JJ, NOT NN/NNS
+4. RB/RBR/RBS, VB/VBD/VBN/VBG, NOT NN/NNS
 
 Regular expressions are employed to pick phrases from the parsed string. You are advised to tweak the phrase picking or add more in the "Call_java_rpc.java". The phrase picking starts from line #94 in the above java file.
 
 Now the database sentiment is done via following. In the picked phrases picked via above rules,
 
-1) stronger words get higher sentiment values
-2) if the sentiment of the 2nd word is of other sign than the preceding word, then the overall sentiment value is zero
+1. stronger words get higher sentiment values
+2. if the sentiment of the 2nd word is of other sign than the preceding word, then the overall sentiment value is zero
 
 
 -------------------------------------------------------------------
