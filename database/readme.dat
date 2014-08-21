@@ -1,0 +1,16 @@
+-------------DATABASE CREATION----------------
+
+STEP 1:
+
+First run the "data_and_table)creation.sql" file your mysql editor. This will create the necessary database and
+table.
+
+STEP 2:
+
+Then run the "sent_lexicon_loader.py" in python editor. This will fill up the database. 
+
+IMPORTANT: In the above python file, fill up the database username, password, and database name!
+
+And database part is done!
+
+
