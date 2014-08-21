@@ -24,11 +24,9 @@ SYSTEM REQUIREMENTS:
 STEP 1: CREATION OF DATABASE
 
 
-Get into the database folder and follow the steps mentioned in the "readme.dat" file inside the database folder. This will
-create the necessary database and table.
+Get into the database folder and follow the steps mentioned in the "readme.dat" file inside the database folder. This will create the necessary database and table.
 
 STEP 2: START THE Python-Selenium RPC server
-
 
 First, make sure you have the following packages to run selenium in headless mode.
 
@@ -38,8 +36,8 @@ First, make sure you have the following packages to run selenium in headless mod
 
 Or, run the following commands in terminal
 
-sudo apt-get install xvfb
-sudo pip install pyvirtualdisplay, selenium
+1. sudo apt-get install xvfb
+2. sudo pip install pyvirtualdisplay, selenium
 
 And now run the "python-selenium-rpc.py" file. It will start the server.
 
